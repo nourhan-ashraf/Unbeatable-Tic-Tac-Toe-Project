@@ -36,7 +36,7 @@ int printTheArray(char arr[3][3]){    //function to print the matrix
 int horizontal(char arr[3][3]){    //check horizontal rows for winner
     for(int i=0;i<3;i++){
         if (arr[i][0]== arr[i][1] && arr[i][1]==arr[i][2] && arr[i][0]!=' ') {
-            return true;   //return the winner
+            return true;  
         }
     }
     return false;
@@ -45,7 +45,7 @@ int horizontal(char arr[3][3]){    //check horizontal rows for winner
 int vertical(char arr[3][3]){     //check vertical columns for winner
     for(int i=0;i<3;i++){
     if (arr[0][i]== arr[1][i] && arr[1][i]==arr[2][i] && arr[0][i]!=' ') {
-        return true;   //return the winner
+        return true;   
     }
     }
     return false;
@@ -54,10 +54,10 @@ int vertical(char arr[3][3]){     //check vertical columns for winner
 
 int diagonal(char arr[3][3]){     //check diagonals for winner
     if (arr[0][0]== arr[1][1]&&arr[1][1]== arr[2][2] && arr[0][0]!=' ') {
-        return true;   //return the winner
+        return true;  
     }
     if(arr[0][2]== arr[1][1]&&arr[1][1]== arr[2][0] && arr[0][2]!=' ') {
-        return true;   //return the winner
+        return true;  
     }
     return false;
 }
@@ -262,15 +262,12 @@ int play(){
         wrong_choice();
     }
 
-        if(player == 1){
+        if(player == 1)
             printf("You choosed Robot to play first!\n");
-                //call play function to start the game
 
-        }
-        else if(player == 2){
+        else if(player == 2)
             printf("You choosed Human to play first!\n");
-             //call play function to start the game
-        }
+
     int moveIndex = 0;
 
     char arr[3][3];
@@ -278,8 +275,7 @@ int play(){
         for(int j=0;j<3;j++){
             arr[i][j]=' ';
         }
-    }     //function that play the game by calling the other functions
-
+    }     
     while(gameOver(arr)==false && moveIndex!=9){
 
         if(player ==1){
