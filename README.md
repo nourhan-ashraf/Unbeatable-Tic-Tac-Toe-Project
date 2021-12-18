@@ -2,7 +2,7 @@
 
 ### **Objectives:**
 
-This Team Error-404 project aims to develop an Un-Beatable Tic-Tac-Toe game using AI and that AI can never lose against any human player 
+Our team (Error-404 Team) project that aims to develop an Un-Beatable Tic-Tac-Toe game using AI and that AI can never lose against any human player 
 and tie is its worest case. Using MiniMax algorisim we made something for the program like a cheat code that will make it never lose at any case.
 If you don't know what is Tic-Tac-To just follow me:
 
