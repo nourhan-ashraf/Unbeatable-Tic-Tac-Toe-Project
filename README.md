@@ -25,5 +25,5 @@ crossing two horizontal lines and each tries to get a row of three Xs or three O
 ## Team Members
 - [Nourhan Ashraf](https://github.com/nourhan-ashraf)
 - [Abd-Elrahman Hesham](https://github.com/Red-Cloud2000)
-- [Shorouk Abdalla]
+- [Shrouk Abdullah](https://github.com/Shrouk-Abdullah)
 
